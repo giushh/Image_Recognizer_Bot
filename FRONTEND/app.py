@@ -17,7 +17,7 @@ st.set_page_config(
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 print(PROJECT_ROOT)
-MODEL_PATH = os.path.join(PROJECT_ROOT, "RESULT/cifar10_improved_model.keras")
+MODEL_PATH = os.path.join(PROJECT_ROOT, "RESULT/cifar10_improved_model_V2.keras")
 
 CLASS_NAMES = [
     "airplane", "automobile", "bird", "cat", "deer",
