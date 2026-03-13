@@ -43,10 +43,26 @@ Image_Recognizer_CNN/
 │   └─ guida_veloce.md                  # Guida rapida all'utilizzo
 │
 ├─ UTILITIES/                           # Risorse e strumenti di supporto
-│   ├─ img_samples.png                  # Esempi di immagini del dataset
+│   ├─ Grafici                          # Cartella con i grafici ottenuti dal codice
+│   │   ├─ grafico_addestramento.png    # Immagine dei grafici con i risultati dell'addestramento
+│   │   └─ matrice_confusione.png       # Immagine della matrice con i risultati dell'addestramento del nuovo modello
+│   ├─ SAMPLES                          # Cartella con i grafici ottenuti dal codice
+│   │   ├─ ImmaginiConDiffVecchioNuovo  # Immagini che azzecca solo il modello più potente
+│   │   │	├─ cane(topo).jpg           # Immagine di chihuahua
+│   │   │	├─ cavallo.jpg              # Immagine di cavallo
+│   │   │   └─ veliero.png              # Immagine di veliero
+│   │   ├─ ImmaginiGeneriche            # Immagini che azzecca ogni modello
+│   │   │	├─ aereo.jpg                # Immagine di aereo
+│   │   │	├─ cane.jpg                 # Immagine di cane
+│   │   │	├─ cavallo.jpg              # Immagine di cavallo
+│   │   │	├─ cervo.jpg                # Immagine di cervp
+│   │   │	├─ gatto.jpg                # Immagine di gatto
+│   │   │	├─ rana.jpg                 # Immagine di rana
+│   │   │   └─ uccello.jpg              # Immagine di uccello
+│   │   └─ img_samples.png              # Esempi di immagini del dataset
 │   ├─ modello_cifar10.h5               # Modello CNN salvato (baseline o versione precedente)
 │   └─ nomi_alternativi_gruppo.txt      # File inutile quanto simpatico
-│
+
 ├─ env_progetto/                        # Variabili d'ambiente per l'ambiente virtuale (da ignorare)
 │   ├─ -
 │   : 
